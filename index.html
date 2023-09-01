@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="Logo_de_mes_pages.png" type="image/x-icon">
+
+    <title>Mon établissement</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h2>EJAD School</h2>
+        <div class="nav-elements">
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#">Acceuil</a></li>
+                    <li><a href="#">Collège</a></li>
+                    <li><a href="#">Lycée</a></li>
+                </ul>
+            </div>
+            <input type="search" name="search" id="search" placeholder="Entrer votre recherche">
+            <button type="submit">Chercher</button>
+        </div>
+    </nav>
+
+    <section class="container">
+        <aside>
+            <h2>EJAD School</h2>
+    
+            <div class="aside-title">
+                <h3>Collège</h3>
+                <div class="aside-informations">
+                    <h4>Nombre de classes : 8</h4>
+                    <h4>Nombre d'élèves : 550</h4>
+                </div>
+            </div>
+
+            <div class="line"></div>
+    
+            <div class="aside-title">
+                <h3>Lycée</h3>
+                <div class="aside-informations">
+                    <h4>Nombre de classes : 13</h4>
+                    <h4>Nombre d'élèves : 900</h4>
+                </div>
+            </div>
+        </aside>
+    
+        <main>
+        
+            <section class="niveaux">
+                <div class="niveau-informations">
+                    <h2>Informations concernant chaque classe du collège</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Nom</th>
+                                <th>Effectif</th>
+                                <th>Nombre d'admis</th>
+                                <th>Nombre d'echec</th>
+                                <th>Moyenne la plus forte</th>
+                                <th>Moyenne la plus faible</th>
+                                <th>Moyenne générale de la classe</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Sixième A</td>
+                                <td>103</td>
+                                <td>56</td>
+                                <td>47</td>
+                                <td>16</td>
+                                <td>7</td>
+                                <td>10.5</td>
+                            </tr>
+                            <tr>
+                                <td>Sixième B</td>
+                                <td>99</td>
+                                <td>50</td>
+                                <td>49</td>
+                                <td>15</td>
+                                <td>8</td>
+                                <td>10.0</td>
+                            </tr>
+                            <tr>
+                                <td>Sixième C</td>
+                                <td>90</td>
+                                <td>56</td>
+                                <td>43</td>
+                                <td>15</td>
+                                <td>7</td>
+                                <td>9.56</td>
+                            </tr>
+                            <tr>
+                                <td>Cinquième A</td>
+                                <td>112</td>
+                                <td>56</td>
+                                <td>43</td>
+                                <td>14</td>
+                                <td>6</td>
+                                <td>9.23</td>
+                            </tr>
+                            <tr>
+                                <td>Cinquième B</td>
+                                <td>107</td>
+                                <td>56</td>
+                                <td>43</td>
+                                <td>13</td>
+                                <td>6</td>
+                                <td>9.05</td>
+                            </tr>
+                            <tr>
+                                <td>Quatrième A</td>
+                                <td>86</td>
+                                <td>56</td>
+                                <td>43</td>
+                                <td>15</td>
+                                <td>5</td>
+                                <td>10.5</td>
+                            </tr>
+                            <tr>
+                                <td>Quatrième B</td>
+                                <td>87</td>
+                                <td>56</td>
+                                <td>43</td>
+                                <td>14</td>
+                                <td>6</td>
+                                <td>8.69</td>
+                            </tr>
+                            <tr>
+                                <td>Troisième</td>
+                                <td>73</td>
+                                <td>56</td>
+                                <td>43</td>
+                                <td>15</td>
+                                <td>7</td>
+                                <td>9.63</td>
+                            </tr>
+                        </tbody>
+                    </table>
+    
+                    <!-- Graphe des données -->
+                    <div class="graph">
+                        <canvas id="graphique-college" aria-label="chart" role="img"></canvas>
+                    </div>
+                </div>
+    
+                <div class="niveau-informations">
+                    <h2>Informations concernant chaque classe du lycée</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Nom</th>
+                                <th>Effectif</th>
+                                <th>Nombre d'admis</th>
+                                <th>Nombre d'echec</th>
+                                <th>Moyenne la plus forte</th>
+                                <th>Moyenne la plus faible</th>
+                                <th>Moyenne générale de la classe</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Seconde S</td>
+                                <td>103</td>
+                                <td>56</td>
+                                <td>43</td>
+                                <td>16</td>
+                                <td>7</td>
+                                <td>10.5</td>
+                            </tr>
+                            <tr>
+                                <td>Seconde A4 allemand</td>
+                                <td>99</td>
+                                <td>56</td>
+                                <td>43</td>
+                                <td>15</td>
+                                <td>8</td>
+                                <td>10.0</td>
+                            </tr>
+                            <tr>
+                                <td>Seconde A4 espagnol</td>
+                                <td>90</td>
+                                <td>56</td>
+                                <td>43</td>
+                                <td>15</td>
+                                <td>7</td>
+                                <td>9.56</td>
+                            </tr>
+                            <tr>
+                                <td>Première C4</td>
+                                <td>7</td>
+                                <td>7</td>
+                                <td>0</td>
+                                <td>15</td>
+                                <td>13</td>
+                                <td>14.5</td>
+                            </tr>
+                            <tr>
+                                <td>Première D1</td>
+                                <td>112</td>
+                                <td>56</td>
+                                <td>43</td>
+                                <td>14</td>
+                                <td>6</td>
+                                <td>9.23</td>
+                            </tr>
+                            <tr>
+                                <td>Première D2</td>
+                                <td>107</td>
+                                <td>56</td>
+                                <td>43</td>
+                                <td>13</td>
+                                <td>6</td>
+                                <td>9.05</td>
+                            </tr>
+                            <tr>
+                                <td>Première A4 allemand</td>
+                                <td>86</td>
+                                <td>56</td>
+                                <td>43</td>
+                                <td>15</td>
+                                <td>5</td>
+                                <td>10.5</td>
+                            </tr>
+                            <tr>
+                                <td>Première A4 espagnol</td>
+                                <td>87</td>
+                                <td>56</td>
+                                <td>43</td>
+                                <td>14</td>
+                                <td>6</td>
+                                <td>8.69</td>
+                            </tr>
+                            <tr>
+                                <td>Terminale C4</td>
+                                <td>7</td>
+                                <td>7</td>
+                                <td>0</td>
+                                <td>13</td>
+                                <td>11</td>
+                                <td>12.33</td>
+                            </tr>
+                            <tr>
+                                <td>Terminale D1</td>
+                                <td>73</td>
+                                <td>56</td>
+                                <td>43</td>
+                                <td>15</td>
+                                <td>7</td>
+                                <td>9.63</td>
+                            </tr>
+                            <tr>
+                                <td>Terminale D2</td>
+                                <td>73</td>
+                                <td>56</td>
+                                <td>43</td>
+                                <td>15</td>
+                                <td>7</td>
+                                <td>9.63</td>
+                            </tr>
+                            <tr>
+                                <td>Terminale A4 allemand</td>
+                                <td>73</td>
+                                <td>56</td>
+                                <td>43</td>
+                                <td>15</td>
+                                <td>7</td>
+                                <td>9.63</td>
+                            </tr>
+                            <tr>
+                                <td>Terminale A4 espagnol</td>
+                                <td>73</td>
+                                <td>56</td>
+                                <td>43</td>
+                                <td>15</td>
+                                <td>7</td>
+                                <td>9.63</td>
+                            </tr>
+                        </tbody>
+                    </table>
+    
+                    <!-- Graphe des données -->
+                    <div class="graph">
+                        <canvas id="graphique-lycee" aria-label="chart" role="img"></canvas>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </section>
+
+    <footer>
+        <section class="school-infos">
+            <h2>EJAD School</h2>
+            <h2>Proviseur : Mr. EJAD</h2>
+            <h2>Censeur : Mlle. Elle</h2>
+        </section>
+
+        <section class="school-contacts">
+            <h2>Contacts</h2>
+            <div>
+                <h3>Numero de téléphone : +228 01020304 / 12131415</h3>
+                <h3>Adresse email : ejadscholl@gmail.com</h3>
+                <h3>Localisation : 365 Rue EJAD</h3>
+            </div>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+</html>

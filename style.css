@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+/* Début du style de la barre de navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d43d1;
+    height: 80px;
+}
+
+nav h2 {
+    width: auto;
+    margin: auto;
+    margin-left: 1%;
+    color: #ec53b0;
+}
+
+nav .nav-elements {
+    display: flex;
+    justify-content: space-around;
+    margin: auto 40px;
+}
+
+nav .nav-links {
+    width: auto;
+    margin: auto 40px;
+    padding: 5px;
+}
+
+nav .nav-links ul li a {
+    text-decoration: none;
+    color: wheat;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin: 10px;
+}
+
+nav .nav-elements input {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color: rgb(40, 221, 40);
+    border: 2px solid #ec53b0;
+    border-radius: 1%;
+    box-shadow: 3px 3px black;
+    height: 35px;
+}
+
+nav .nav-elements button {
+    background-color: #ec53b0;
+    color: azure;
+    border: 2px solid #ec53b0;
+    box-shadow: 3px 3px black;
+    height: 35px;
+}
+/* Fin du style de la barre de navigation */
+
+
+.container {
+    display: flex;
+}
+
+.container aside {
+    width: 300px;
+    height: 700px;
+    background-color: azure;
+    text-align: center;
+}
+
+.container aside h2 {
+    text-align: center;
+    margin-top: 40%;
+}
+
+.container aside .aside-title {
+    font-size: large;
+    margin-top: 30%;
+}
+
+.container aside .aside-title .aside-informations h4 {
+    font-size: large;
+    margin: 15px 0;
+}
+
+.container aside .line {
+    height: 2px;
+    background-color: rgb(150, 250, 250);
+    margin-top: 30%;
+}
+
+/* Style du main */
+.container main {
+    max-width: 100%;
+}
+
+.container main .niveaux .niveau-informations h2 {
+    text-align: center;
+    margin: 5% 0 5% 10%;
+    text-decoration: underline;
+}
+
+.container main .niveaux .niveau-informations table {
+    font-size: larger;
+    margin: 0 5%;
+    border-collapse: collapse;
+
+}
+
+.container main .niveaux .niveau-informations table tr, td, th {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.graph {
+    width: 500px;
+    margin: auto;
+}
+/* Fin du style du main */
+
+
+/* Début du style du footer */
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin: 10% 0 0;
+    padding: 2% 0 1%;
+    background-color: azure;
+}
+
+footer .school-infos h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    margin: 5px;
+}
+
+footer .school-contacts h2 {
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 10px;
+}
+/* Fin du style du footer */
